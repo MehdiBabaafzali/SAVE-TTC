@@ -1,0 +1,9 @@
+# Latency / memory benchmark on adversarial Pets images (paper, Table VI configurations; GPU required).
+#   python scripts/benchmark_runtime.py --config configs/runtime.yaml
+dataset: Pets
+configs: [1/1/2, 1/9/2, 1/9/4, 2/9/4, 1/9/20, 3/9/4]
+batch_sizes: [8]
+n_images_bs8: 256
+warmup: 3
+repeats: 3
+precisions: [fp32]

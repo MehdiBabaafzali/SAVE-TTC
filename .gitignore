@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# datasets, adversarial caches, run outputs, weights
+data/
+caches/
+outputs/
+*.pt
+*.pth
+*.ckpt
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,10 @@
+# Start / view ablation (paper, Table V configurations), defense seed 0.
+#   python scripts/evaluate.py --config configs/ablation_grid.yaml
+datasets: [Pets, Flower102, Aircraft, DTD]
+configs: [1/1/2, 3/1/2, 1/9/2, 3/9/2, 1/9/4, 3/9/4]
+views9: code9
+seeds: [0]
+splits: [adv]
+batch_size: 8
+amp: "on"
+cache_seed: 1

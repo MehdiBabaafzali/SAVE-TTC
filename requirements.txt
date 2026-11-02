@@ -1,0 +1,12 @@
+torch>=2.0
+torchvision>=0.15
+numpy
+scipy
+pillow
+tqdm
+ftfy
+regex
+einops
+packaging
+pyyaml
+pytest

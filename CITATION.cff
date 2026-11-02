@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "SAVE-TTC: Stabilizing Test-Time Adversarial Defense for Vision-Language Models via Start-and-View Ensembling"
+authors:
+  - family-names: Babaafzali
+    given-names: Mohammad Mahdi
+    affiliation: "Department of Electrical and Computer Engineering, University of Kashan"
+  - family-names: Nasri-Lowshani
+    given-names: Mohammad Javad
+    affiliation: "Department of Electrical and Computer Engineering, University of Kashan"
+  - family-names: Dehghani
+    given-names: Fereshte
+    affiliation: "Department of Electrical and Computer Engineering, University of Kashan"
+repository-code: "https://github.com/MehdiBabaafzali/SAVE-TTC"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "SAVE-TTC: Stabilizing Test-Time Adversarial Defense for Vision-Language Models via Start-and-View Ensembling"
+  authors:
+    - family-names: Babaafzali
+      given-names: Mohammad Mahdi
+    - family-names: Nasri-Lowshani
+      given-names: Mohammad Javad
+    - family-names: Dehghani
+      given-names: Fereshte
+  collection-title: "Proceedings of the International Conference on Machine Vision and Image Processing (MVIP)"
+  year: 2026

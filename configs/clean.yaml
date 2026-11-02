@@ -1,0 +1,10 @@
+# Clean accuracy on unattacked images, defense seed 0.
+#   python scripts/evaluate.py --config configs/clean.yaml
+datasets: [Pets, Flower102, Aircraft, DTD]
+configs: [clip, 1/1/2, 3/9/4]
+views9: code9
+seeds: [0]
+splits: [clean]
+batch_size: 8
+amp: "on"
+cache_seed: 1
